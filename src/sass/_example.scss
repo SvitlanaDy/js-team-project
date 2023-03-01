@@ -27,8 +27,8 @@
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 30px;
+  width: 40px;
+  height: 20px;
 }
 
 /* Hide default html checkbox */
@@ -51,10 +51,10 @@
 .slider:before {
   position: absolute;
   content: "";
-  height: 20px;
-  width: 20px;
-  left: 32px;
-  bottom: 5px;
+  height: 16px;
+  width: 16px;
+  left: 24px;
+  bottom: 2px;
   background-color: #fff;
   transition: 0.4s;
 }
@@ -103,42 +103,19 @@ body {
 .toggle-switch p {
   padding: 1em;
 }
-
-
-
-
-
-
-
-
-
-
-
-// .example {
-//   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-//     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-//   line-height: 1.5;
-//   background-color: #fff;
-//   color: #2f2f37;
-//   max-width: 960px;
-//   padding: 16px;
+// .light{
+//   size:18px;
+//   weight: 400px;
 // }
 
-// .example code {
-//   font-family: monospace;
-//   font-size: 16px;
-//   font-weight: 700;
-//   background-color: #ff6b0a;
-//   color: #fff;
-//   padding: 2px 6px;
-//   border-radius: 2px;
-// }
 
-// .example .background {
-//   height: 240px;
-//   // ❗️❗️❗️ The path to images from a SASS file
-//   // is always the same as from the css folder.
-//   background-image: url('../images/logo.png');
-//   background-size: cover;
-//   background-position: center;
-// }
+
+
+
+
+
+
+
+
+
+
