@@ -1,14 +1,34 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page title</title>
     <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
+   
   </head>
-  <body>
+  <body class="light">
+    <div class="toggle-switch">
+      <p>Dark</p>
+      <span>
+        <label class="switch">
+          <input id="theme-switch" type="checkbox">
+          <span class="slider round"></span>
+        </label>
+      </span>
+      <p>Light</p>
+    </div>
+    <!-- <div class="wrapper">
+      <div class="themes">
+
+        <label><input type='radio' name='theme' value='light' checked>Light</label>
+        <label><input type='radio' name='theme' value='dark'>Dark</label>
+      </div>
+    </div> -->
+    
     <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <!-- <include src="./partials/example.html"></include>
+    <include src="./partials/mode.html"></include> -->
+    <script type="module" src="./index.js"></script>
   </body>
 </html>
